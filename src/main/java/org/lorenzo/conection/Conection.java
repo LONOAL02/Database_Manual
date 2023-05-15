@@ -12,7 +12,7 @@ public class Conection {
     public Conection(){
         try
         {
-            String rutafile = "C:\\\\Users\\\\PC-LORENZO\\\\Documents\\\\NetBeansProjects\\\\Boletines\\\\DatabaseMan\\\\db\\\\dbFinal.accdb";
+            String rutafile = "db/dbFinal.accdb";
             String Url = "jdbc:ucanaccess://" + rutafile;
             ccn = DriverManager.getConnection(Url);
             st = ccn.createStatement();
